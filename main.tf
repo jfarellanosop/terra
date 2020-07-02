@@ -1,3 +1,9 @@
+data "ibm_compute_bare_metal" "bare_metal" {
+  hostname    = "sourcepoc1"
+  domain      = "sopra.cloud"
+  most_recent = true
+}
+
 resource "ibm_compute_bare_metal" "hourly-bm1" {
   hostname             = "hourly-bm1"
   domain               = "sopra.cloud"
