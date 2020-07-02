@@ -3,7 +3,7 @@ data "ibm_compute_bare_metal" "bare_metal" {
   domain      = "sopra.cloud"
   most_recent = true
 }
-
+/*
 resource "ibm_compute_bare_metal" "hourly-bm1" {
   hostname             = "hourly-bm1"
   domain               = "sopra.cloud"
@@ -20,3 +20,4 @@ resource "ibm_compute_bare_metal" "hourly-bm1" {
   ]
   notes = "note test"
 }
+*/
