@@ -6,7 +6,7 @@
 resource "ibm_compute_bare_metal" "test-terraform" {
   hostname             = "test-poc_terraform"
   domain               = "jose-francisco-arellano-s-account.cloud"
-  memoryCapacity       = 32
+  memory               = 32
   os_reference_code    = "D588C989-0334-4FAD-993E-D37807B62FF7"
 #"REDHAT_7_64"
  #"7.7-64 for SAP Business Applications"
