@@ -7,7 +7,7 @@ resource "ibm_compute_bare_metal" "test-terraform" {
   hostname             = "test-poc_terraform"
   domain               = "jose-francisco-arellano-s-account.cloud"
   memory               = 32
-  os_reference_code    = 'REDHAT_LATEST_64'
+  os_reference_code    = "OS_RHEL_7_1_64_BIT"
   redundant_power_supply = true
   datacenter           = "ams03"
   network_speed        = 100   # Optional
