@@ -1,11 +1,11 @@
 /*data "ibm_compute_bare_metal" "bare_metal" {
-  hostname    = "sourcepoc1"
-  domain      = "sopra.cloud"
+  hostname    = "arepoc1"
+  domain      = "jose-francisco-arellano-s-account.cloud"
   most_recent = true
 }*/
 resource "ibm_compute_bare_metal" "test-terraform" {
   hostname             = "test-poc_terraform"
-  domain               = ""
+  domain               = "jose-francisco-arellano-s-account.cloud"
   os_reference_code    = "REDHAT_7_64"
   datacenter           = "ams03"
   network_speed        = 100   # Optional
