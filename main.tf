@@ -1,8 +1,9 @@
-/*data "ibm_compute_bare_metal" "bare_metal" {
+data "ibm_compute_bare_metal" "bare_metal" {
   hostname    = "arepoc1"
   domain      = "jose-francisco-arellano-s-account.cloud"
   most_recent = true
-}*/
+}
+  /*
 resource "ibm_compute_bare_metal" "test-terraform" {
   hostname             = "test-poc_terraform"
   domain               = "jose-francisco-arellano-s-account.cloud"
@@ -20,3 +21,4 @@ resource "ibm_compute_bare_metal" "test-terraform" {
   ]
   notes = "note test"
 }
+*/
