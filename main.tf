@@ -7,8 +7,8 @@ resource "ibm_compute_bare_metal" "test-terraform" {
   hostname             = "test-poc_terraform"
   domain               = "jose-francisco-arellano-s-account.cloud"
   memory               = 32
-  os_reference_code    = "7.7-64 for SAP Business Applications"
-#"REDHAT_7_64"
+  os_reference_code    = "REDHAT_7_64"
+  redundant_power_supply    = true
  #"7.7-64 for SAP Business Applications"
   datacenter           = "ams03"
   network_speed        = 100   # Optional
