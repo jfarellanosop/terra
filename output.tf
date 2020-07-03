@@ -1,7 +1,7 @@
 output "so" {
-  value = bare_metal.os_reference_code
+  value = ibm_compute_bare_metal.bare_metal.os_reference_code
 }
 
 output "id" {
-  value = bare_metal.id
+  value = ibm_compute_bare_metal.bare_metal.id
 }
