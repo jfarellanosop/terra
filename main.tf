@@ -6,8 +6,6 @@
  
 resource "ibm_compute_bare_metal" "test-terraform" {
   hostname             = "test-poc_terraform"
-  file_storage_ids     = ""
-  block_storage_ids    = ""
   ipv6_enabled         = false
   domain               = "jose-francisco-arellano-s-account.cloud"
   memory               = 32
