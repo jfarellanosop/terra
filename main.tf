@@ -11,8 +11,6 @@ resource "ibm_compute_bare_metal" "test-terraform" {
   memory               = 32
   os_reference_code    = "REDHAT_7_64"
   public_bandwidth     = 0  
-  private_subnet       = 1282439
-  private_vlan_id      = 2904384  
   redundant_network      = true
   redundant_power_supply = true
   datacenter           = "ams03"
