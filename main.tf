@@ -17,7 +17,8 @@ resource "ibm_compute_bare_metal" "test-terraform" {
   private_network_only = false # Optional
   redundant_network      = true
   redundant_power_supply = true
-  unbonded_network       = false  
+  unbonded_network       = false
+  fixed_config_preset  = "1U_6248S_384GB_1X3_8_SED_JBOD"
   tags = [
     "collectd",
     "mesos-master",
