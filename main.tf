@@ -10,7 +10,6 @@ resource "ibm_compute_bare_metal" "test-terraform" {
   domain               = "jose-francisco-arellano-s-account.cloud"
   memory               = 32
   os_reference_code    = "REDHAT_7_64"
-  public_ipv4_address  = "169.50.135.101"  
   public_bandwidth     = 0  
   private_subnet       = 1282439
   private_vlan_id      = 2904384  
