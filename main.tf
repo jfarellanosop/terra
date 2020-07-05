@@ -3,13 +3,14 @@
   domain      = "jose-francisco-arellano-s-account.cloud"
   most_recent = true
 }*/
- 
+/*FUNCIONA PERO NO DESPLIEGA NADA
 resource "ibm_compute_bare_metal" "test-terraform" {
 
   datacenter           = "ams03"
   domain               = "jose-francisco-arellano-s-account.cloud"
   hostname             = "test-poc_terraform"
   hourly_billing       = true  # Optional 
+  local_disk           = true
   ipv6_enabled         = false
   memory               = 32
   network_speed        = 1000   # Optional
@@ -26,3 +27,5 @@ resource "ibm_compute_bare_metal" "test-terraform" {
   notes = "note test"
 }
 
+*/
+  
