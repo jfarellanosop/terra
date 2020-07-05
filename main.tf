@@ -13,7 +13,6 @@ resource "ibm_compute_bare_metal" "test-terraform" {
   ipv6_enabled         = false
   #cores                = 1
   memory               = 32
-  disks                = 25
   network_speed        = 1000   # Optional
   os_reference_code    = "REDHAT_7_64"
   private_network_only = false # Optional
