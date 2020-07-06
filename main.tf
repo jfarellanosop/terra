@@ -10,7 +10,6 @@ resource "ibm_compute_bare_metal" "test-terraform" {
   domain               = "jose-francisco-arellano-s-account.cloud"
   hostname             = "test-poc_terraform"
   hourly_billing       = true  # Optional 
-  local_disk           = true
   ipv6_enabled         = false
   memory               = 32
   network_speed        = 1000   # Optional
