@@ -3,6 +3,7 @@
   domain      = "jose-francisco-arellano-s-account.cloud"
   most_recent = true
 }*/
+  /*
 resource "ibm_compute_bare_metal" "test-terraform" {
   datacenter           = "ams03"
   domain               = "jose-francisco-arellano-s-account.cloud"
@@ -23,5 +24,5 @@ resource "ibm_compute_bare_metal" "test-terraform" {
   notes = "note test"
   os_reference_code    = "REDHAT_7_64"
 }
-
+*/
   
