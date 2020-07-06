@@ -34,7 +34,6 @@ resource "ibm_compute_bare_metal" "test-terraform" {
  hourly_billing          = true
  ipv6_enabled            = false
  memory                  = 32
- most_recent             = true
  network_speed           = 10000
  os_reference_code       = "REDHAT_7_64"
  private_network_only    = false
