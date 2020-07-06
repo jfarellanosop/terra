@@ -3,7 +3,7 @@
   domain      = "jose-francisco-arellano-s-account.cloud"
   most_recent = true
 }*/
-/*FUNCIONA PERO NO DESPLIEGA NADA
+/*FUNCIONA PERO NO DESPLIEGA NADA*/
 resource "ibm_compute_bare_metal" "test-terraform" {
 
   datacenter           = "ams03"
@@ -27,5 +27,4 @@ resource "ibm_compute_bare_metal" "test-terraform" {
   notes = "note test"
 }
 
-*/
   
