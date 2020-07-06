@@ -11,7 +11,6 @@ resource "ibm_compute_bare_metal" "test-terraform" {
   ipv6_enabled         = false
   memory               = 32
   network_speed        = 1000   # Optional
-  os_reference_code    = "REDHAT_7_64"
   private_network_only = false # Optional
   redundant_network      = true
   redundant_power_supply = true
@@ -22,6 +21,7 @@ resource "ibm_compute_bare_metal" "test-terraform" {
     "mesos-master",
   ]
   notes = "note test"
+  os_reference_code    = "REDHAT_7_64"
 }
 
   
