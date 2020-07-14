@@ -1,4 +1,4 @@
-resource "ibm_compute_bare_metal" "test-terraform" {
+/*resource "ibm_compute_bare_metal" "test-terraform" {
  datacenter              = "ams03"
  domain                  = "jose-francisco-arellano-s-account.cloud"
  hostname                = "createwithterraform"
@@ -14,3 +14,9 @@ resource "ibm_compute_bare_metal" "test-terraform" {
  unbonded_network        = false
  fixed_config_preset     = "1U_6248S_384GB_1X3_8_SED_JBOD"
 }
+*/
+ data"ibm_compute_bare_metal" "test-terraform" {
+  hostname  = "ase"
+  domain    = "jose-francisco-arellano-s-account.cloud"
+  most_recent = true
+  }
